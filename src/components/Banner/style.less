@@ -1,0 +1,33 @@
+#home-category {
+    position: relative;
+
+    .carousel-item {
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    .index-container {
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+        ul {
+            width: 100%;
+            height: auto;
+            text-align: center;
+        }
+        li {
+            list-style: none;
+            display: inline-block;
+            height: 8px;
+            width: 8px;
+            border-radius: 4px;
+            background-color: #ccc;
+            margin: 0 3px;
+        }
+        li.selected {
+            background-color: rgb(233, 32, 61);
+        }
+    }
+}
